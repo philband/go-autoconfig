@@ -1,4 +1,4 @@
-package main // import "go-autoconfig"
+package main // import "github.com/philband/go-autoconfig"
 
 import (
 	"flag"
@@ -10,8 +10,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"go-autoconfig/config"
-	"go-autoconfig/handlers"
+	"github.com/philband/go-autoconfig/config"
+	"github.com/philband/go-autoconfig/handlers"
 )
 
 var path = flag.String(
